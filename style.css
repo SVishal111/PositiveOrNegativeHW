@@ -19,8 +19,8 @@ main {
 }
 
 .calcContainer {
-    height: 350px;
-    width: 400px;
+    height: 400px;
+    width: 350px;
     /* background-color: blue; */
     background-color: cyan;
 
@@ -51,7 +51,7 @@ label {
 }
 
 input[type=text] {
-    max-width: 400px;
+    max-width: 300px;
     padding: 8px;
     border: 1px solid grey;
     font-weight: 500;
@@ -76,4 +76,18 @@ button {
 button:hover {
     box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.5)inset,
                  3px 3px 8px rgba(0, 0, 0, 0.5)inset;
+}
+
+.backBtn {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    font-weight: 500;
 }
